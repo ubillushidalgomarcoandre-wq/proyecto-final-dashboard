@@ -194,6 +194,6 @@ st.plotly_chart(fig_rent, use_container_width=True)
 # TABLA DE DATOS (opcional, al final)
 # -----------------------------------------------------------------
 with st.expander("📋 Ver datos filtrados en tabla"):
-    st.dataframe(df_filtrado.head(200))
+    st.dataframe(df_filtrado)
 
 st.caption(f"Mostrando {len(df_filtrado):,} de {len(df):,} registros totales según los filtros aplicados.")
