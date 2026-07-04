@@ -25,7 +25,7 @@ st.set_page_config(
 )
 
 # IMPORTANTE: ajusta esta ruta a donde tengas tu dataset limpio
-RUTA_DATOS = r"C:\Users\ubill\OneDrive\Escritorio\ProyectoFinal\data\superstore_clean.csv"
+RUTA_DATOS = "superstore_clean.csv"
 
 
 @st.cache_data
